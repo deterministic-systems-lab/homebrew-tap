@@ -4,22 +4,22 @@ cask "gurdy" do
 
   on_macos do
     on_intel do
-      sha256 "2d9202b519e4a661f5b91fb636e924553ff69a9787f18aa2065de3efcba45e94"
+      sha256 "b400a96baef8434f1fdb0b5364a41ce299e05afbe01f993dfc24225424cb5dd9"
       url "https://github.com/GurdyAI/gurdy/releases/download/v#{version}/gurdy_#{version}_darwin_amd64.tar.gz"
     end
     on_arm do
-      sha256 "a138aff5a160d10cb0981b168a6008a0dfdedc798ebcc8a781c02128d7c2cb69"
+      sha256 "0a5de3a765d687be237e9d3c85ae0919cbac1b417955f36026f2b4d0d1343261"
       url "https://github.com/GurdyAI/gurdy/releases/download/v#{version}/gurdy_#{version}_darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "02ee3be62640cf1eecb33edce92b2790fba7534fb1a042afecbf8b153ff88277"
+      sha256 "3e2921e0e0246c2ad8ad534e3caac877f0079c9421f39f42acd81b643972e43e"
       url "https://github.com/GurdyAI/gurdy/releases/download/v#{version}/gurdy_#{version}_linux_amd64.tar.gz"
     end
     on_arm do
-      sha256 "b65e825a6415b06e74ab98e4d6adc4e7fa3d33c6e6c087cb4d09f60a31ef8511"
+      sha256 "ce60e1e12a0fe4d25879b9ee3de27d69dcf814f2ae7ed5894d6839ff7d1db78f"
       url "https://github.com/GurdyAI/gurdy/releases/download/v#{version}/gurdy_#{version}_linux_arm64.tar.gz"
     end
   end
