@@ -1,10 +1,10 @@
-# GurdyAI/homebrew-tap
+# deterministic-systems-lab/homebrew-tap
 
-The Homebrew tap for [Gurdy](https://github.com/GurdyAI/gurdy) — a flight recorder for AI agents.
+The Homebrew tap for [Gurdy](https://github.com/deterministic-systems-lab/gurdy) — a flight recorder for AI agents.
 It governs agent tool calls and writes a decision ledger a third party can verify offline.
 
 ```sh
-brew install GurdyAI/tap/gurdy
+brew install deterministic-systems-lab/tap/gurdy
 ```
 
 That installs two binaries: `gurdy-proxy` (the governance proxy) and `gurdy-verify` (the offline
@@ -14,7 +14,7 @@ nothing but the export and the checker.
 ## This repository is generated
 
 Nothing here is written by hand. `Casks/gurdy.rb` is published by GoReleaser from the
-[`gurdy`](https://github.com/GurdyAI/gurdy) release workflow on every tagged release, and any
+[`gurdy`](https://github.com/deterministic-systems-lab/gurdy) release workflow on every tagged release, and any
 edit made here is overwritten by the next one. **Report problems against `gurdy`, not against
 this tap** — the cask's contents come from `.goreleaser.yaml` there.
 
